@@ -21,8 +21,8 @@
 5.  **One Away**: There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
 6.  `**String Compression**`: Implement a method to perform basic string compression using the counts of repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a - z).[here](https://github.com/Joe-Ralph/Codeit/blob/master/programs/cpp/guviDS/stringCompression.py)
 7.  **Rotate Matrix**: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. can you do this in place?
-8.  **Zero Matrix**: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
-9.  **String Rotation**: Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one call to isSubstring (e.g., "waterbottle" is a rotation of "erbottlewat").
+8.  `**Zero Matrix**`: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.[here](https://github.com/Joe-Ralph/Codeit/blob/master/programs/cpp/guviDS/zeroMatrix.cpp)
+9.  `**String Rotation**`: Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one call to isSubstring (e.g., "waterbottle" is a rotation of "erbottlewat").[here](https://github.com/Joe-Ralph/Codeit/blob/master/programs/cpp/guviDS/isStringRotation.cpp)
 
 
 # Linked Lists
@@ -39,7 +39,7 @@
 
 # Stacks and Queues
 
-1.  **Three in One**: Describe how you could use a single array to implement three stacks.
+1.  `**Three in One**`: Describe how you could use a single array to implement three stacks.[here](https://github.com/Joe-Ralph/Codeit/blob/master/programs/cpp/guviDS/ThreeStackWithArray.cpp)
 2.  **Stack Min**: How would you design a stack which, in addition to push and pop, has a function min which returns the minimum element? Push, pop and min should all operate in O(1) time.
 3.  **Stack of Plates**: Imagine a (literal) stack of plates. If the stack gets too high, it might topple. Therefore, in real life, we would likely start a new stack when the previous stack exceeds some threshold. Implement a data structure SetOfStacks that mimics this. SetOfStacks should be composed of several stacks and should create a new stack once the previous one exceeds capacity. SetOfStacks.push() and SetOfStacks.pop() should behave identically to a single stack (that is, pop ( ) should return the same values as it would if there were just a single stack).
 4.  **Queue via Stacks**: Implement a MyQueue class which implements a queue using two stacks.
